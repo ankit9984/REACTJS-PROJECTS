@@ -1,8 +1,33 @@
-# React + Vite
+# Shopping Cart App with useReducer and Context API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple shopping cart application built using React, utilizing `useReducer` and `Context API` for state management.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Technologies](#technologies)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+
+## Technologies
+
+- **React**: A JavaScript library for building user interfaces.
+- **useReducer**: A React hook for managing complex state logic.
+- **Context API**: A React feature for sharing state across components without passing props manually.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+
+## Features
+
+- Display a list of products fetched from the FakeStore API.
+- Add products to the shopping cart using `useReducer` for state management.
+- Remove products from the shopping cart.
+- Calculate and display the total price of items in the cart.
+- Responsive design using Tailwind CSS grid and flex classes.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/shopping-cart-app.git
